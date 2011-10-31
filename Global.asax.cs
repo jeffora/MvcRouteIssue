@@ -21,7 +21,7 @@ namespace MvcRouteIssue
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute("", "I{controller}", new { action = "Index" });
+            routes.MapRoute("", "H{controller}", new { action = "Index" });
 
             routes.MapRoute(
                 "Default", // Route name
